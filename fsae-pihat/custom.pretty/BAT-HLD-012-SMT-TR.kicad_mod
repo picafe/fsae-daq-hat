@@ -1,0 +1,181 @@
+(footprint "BAT-HLD-012-SMT-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BT**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cfd2db5e-1c39-4284-af91-0c0459a0ba68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BAT-HLD-012-SMT-TR"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cfeec791-1900-4212-a6d5-99a98926ed7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-002-SMT&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-002-SMT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2d12c7b-c7f7-4077-b6b1-a10f3344f07f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "BATTERY RETAINER COIN 20MM SMD CR2016"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f63b84e5-0516-429b-b2f7-b3d15c529d88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -9 -2.7)
+		(end -9 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86f009af-ecc8-43f6-8eaa-6adff53fe5a8")
+	)
+	(fp_line
+		(start -6.5 -5.2)
+		(end -9 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ea5384d-10df-4cc0-8f35-316247811fe8")
+	)
+	(fp_line
+		(start -6.5 5.3)
+		(end -9 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d99e6403-6034-4bfd-9644-5a738f552286")
+	)
+	(fp_line
+		(start 6.5 -5.2)
+		(end -6.5 -5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "69ca27a8-bc3b-46a2-9f32-59ea259bb8a4")
+	)
+	(fp_line
+		(start 6.5 -5.2)
+		(end 9 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "daf7e895-c7d1-4b58-9e08-edf42c10d53a")
+	)
+	(fp_line
+		(start 9 -2.7)
+		(end 9 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0415a732-5c4a-49df-8198-1a58cbe62929")
+	)
+	(fp_line
+		(start 9 2.8)
+		(end 6.5 5.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d3a5e0f-181a-4eb2-affe-16505e438809")
+	)
+	(fp_text user "CR1225"
+		(at -2.85 6.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0851f278-8096-414f-b3dc-a366f7207dec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7cd7d9b3-beef-4ddb-bc39-2baa49a3dcd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7.65 0.1)
+		(size 2.5 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62b44d17-f74a-4288-a077-11019f753b47")
+	)
+	(pad "1" smd rect
+		(at 7.65 0.1)
+		(size 2.5 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1cbdab07-b2eb-42e1-af32-4387531ba986")
+	)
+	(pad "2" smd circle
+		(at 0 0.1)
+		(size 10.2 10.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fda3c452-b291-4408-84ef-25c4af9d29ee")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/c-bat-hld-012-smt-tr-b-3d.stp"
+		(offset
+			(xyz 0 -3 2.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
