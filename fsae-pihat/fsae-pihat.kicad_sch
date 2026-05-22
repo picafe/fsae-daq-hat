@@ -1591,156 +1591,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS34"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS34"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "40V 3A Schottky Diode, SMA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS34_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS34_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_CAN_LIN:MCP2515-xST"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6500,6 +6350,280 @@
 				)
 			)
 			(symbol "Schottky,RB751V-40_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Diodes:Schottky,SS54,(2)"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SS54"
+				(at 2.032 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SMA"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281515_hongjiacheng-SS54_C7420369.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V Independent Type 550mV@5.0A 5A SMA(DO-214AC) Schottky Diodes ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C7420369"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "199894"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.041USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "SS54"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Forward Voltage (Vf@If)" "0.55V@5.0A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Voltage (Vr)" "40V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Average Rectified Current (Io)" "5A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Diode Configuration" "Single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Peak forward surge current" "120A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Leakage Current (Ir)" "0.05mA@40V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Schottky,SS54,(2)_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -0.635) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Schottky,SS54,(2)_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.81)
@@ -13999,7 +14123,7 @@
 		(uuid 506c99ec-f125-4339-9bbc-cf99bfd77f73)
 	)
 	(rectangle
-		(start 163.195 13.97)
+		(start 163.195 13.335)
 		(end 227.33 64.135)
 		(stroke
 			(width 0)
@@ -14047,7 +14171,7 @@
 		(uuid dc524ad8-d8a5-4162-b494-7745e5db15f6)
 	)
 	(rectangle
-		(start 228.6 13.97)
+		(start 228.6 13.335)
 		(end 284.48 64.135)
 		(stroke
 			(width 0)
@@ -14265,6 +14389,12 @@
 		(uuid "1a402a46-4ada-420a-8f10-9de83be72f22")
 	)
 	(junction
+		(at 186.69 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f53d77c-5167-49ab-8fa2-42c8d63e5be4")
+	)
+	(junction
 		(at 133.35 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14343,10 +14473,16 @@
 		(uuid "68e862cf-de0b-4da2-989e-3b566e856d28")
 	)
 	(junction
-		(at 208.28 35.56)
+		(at 210.82 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e3c012b-8a14-453f-be9c-ecdd0aa02cc7")
+	)
+	(junction
+		(at 173.99 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "718b84b7-ce65-442f-bc92-b15caec4d347")
 	)
 	(junction
 		(at 227.33 100.33)
@@ -14355,13 +14491,7 @@
 		(uuid "7b68f2ef-a20a-4705-ae6f-c46dab9ea03d")
 	)
 	(junction
-		(at 168.91 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b87b21e-f3b6-441f-ac30-c3b6540d472c")
-	)
-	(junction
-		(at 191.77 35.56)
+		(at 194.31 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ec10eb2-1dae-48d6-929f-f93ce0a8d2c8")
@@ -14575,6 +14705,10 @@
 		(uuid "d8dd6dfe-f030-4fa1-ba6b-925b865c03ff")
 	)
 	(no_connect
+		(at 173.99 16.51)
+		(uuid "e0abc879-16d1-4eca-9230-b738d18e35cf")
+	)
+	(no_connect
 		(at 21.59 91.44)
 		(uuid "e1bd396d-e320-423a-8b17-dae0bec8fe79")
 	)
@@ -14652,7 +14786,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 35.56) (xy 210.82 35.56)
+			(xy 210.82 35.56) (xy 213.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -14699,16 +14833,6 @@
 			(type default)
 		)
 		(uuid "0d1e9455-bcec-4b6f-9413-18fc0b09c7a7")
-	)
-	(wire
-		(pts
-			(xy 168.91 31.75) (xy 175.26 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d491b9d-b7c8-47e9-87fc-ab7503ee30c5")
 	)
 	(wire
 		(pts
@@ -14762,7 +14886,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 39.37) (xy 191.77 39.37)
+			(xy 199.39 39.37) (xy 194.31 39.37)
 		)
 		(stroke
 			(width 0)
@@ -14842,7 +14966,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 31.75) (xy 187.96 33.02)
+			(xy 190.5 31.75) (xy 190.5 33.02)
 		)
 		(stroke
 			(width 0)
@@ -14852,7 +14976,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 33.02) (xy 168.91 31.75)
+			(xy 173.99 33.02) (xy 173.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -15212,7 +15336,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 33.02) (xy 193.04 33.02)
+			(xy 190.5 33.02) (xy 195.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -15222,7 +15346,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 35.56) (xy 208.28 35.56)
+			(xy 208.28 35.56) (xy 210.82 35.56)
 		)
 		(stroke
 			(width 0)
@@ -15282,7 +15406,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 39.37) (xy 208.28 35.56)
+			(xy 210.82 39.37) (xy 210.82 35.56)
 		)
 		(stroke
 			(width 0)
@@ -15492,16 +15616,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 29.21) (xy 168.91 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6044f60b-0bc7-471a-b624-2bc7a738a098")
-	)
-	(wire
-		(pts
 			(xy 138.43 135.89) (xy 138.43 142.24)
 		)
 		(stroke
@@ -15532,7 +15646,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 39.37) (xy 191.77 35.56)
+			(xy 194.31 39.37) (xy 194.31 35.56)
 		)
 		(stroke
 			(width 0)
@@ -15602,7 +15716,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 33.02) (xy 219.71 33.02)
+			(xy 208.28 33.02) (xy 222.25 33.02)
 		)
 		(stroke
 			(width 0)
@@ -15879,6 +15993,16 @@
 			(type default)
 		)
 		(uuid "84a394d3-b836-4218-8641-d5be4b46eb07")
+	)
+	(wire
+		(pts
+			(xy 186.69 22.86) (xy 186.69 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883975f0-6627-4c38-8821-bcf2e0b729d1")
 	)
 	(wire
 		(pts
@@ -16192,7 +16316,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 35.56) (xy 193.04 35.56)
+			(xy 194.31 35.56) (xy 195.58 35.56)
 		)
 		(stroke
 			(width 0)
@@ -16412,7 +16536,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 35.56) (xy 191.77 35.56)
+			(xy 177.8 22.86) (xy 186.69 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d31f54-8f82-4165-aa2f-90072977ee80")
+	)
+	(wire
+		(pts
+			(xy 190.5 35.56) (xy 194.31 35.56)
 		)
 		(stroke
 			(width 0)
@@ -16742,6 +16876,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 29.21) (xy 173.99 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df692fdc-01c5-47fd-a5a1-527e58930f40")
+	)
+	(wire
+		(pts
 			(xy 64.77 86.36) (xy 64.77 82.55)
 		)
 		(stroke
@@ -16812,7 +16956,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 39.37) (xy 208.28 39.37)
+			(xy 204.47 39.37) (xy 210.82 39.37)
 		)
 		(stroke
 			(width 0)
@@ -16872,7 +17016,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 31.75) (xy 187.96 31.75)
+			(xy 187.96 31.75) (xy 190.5 31.75)
 		)
 		(stroke
 			(width 0)
@@ -16892,7 +17036,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 33.02) (xy 219.71 35.56)
+			(xy 222.25 33.02) (xy 222.25 35.56)
 		)
 		(stroke
 			(width 0)
@@ -17030,6 +17174,16 @@
 		)
 		(uuid "fd097204-64b1-47a7-8859-3dace475796c")
 	)
+	(wire
+		(pts
+			(xy 173.99 31.75) (xy 177.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd342ac-5df2-4bce-a910-28067b45928a")
+	)
 	(label "BUCK_IN"
 		(at 50.8 25.4 0)
 		(effects
@@ -17165,7 +17319,7 @@
 		)
 	)
 	(label "CANH"
-		(at 210.82 35.56 0)
+		(at 213.36 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17327,7 +17481,7 @@
 		(uuid "6fc8549c-2a6f-445b-bff6-46e97bfd1d7b")
 	)
 	(label "CANL"
-		(at 187.96 35.56 180)
+		(at 190.5 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17541,6 +17695,16 @@
 			(justify left bottom)
 		)
 		(uuid "ad1eaaed-097c-4f76-b2e1-433f3b38d7a6")
+	)
+	(label "24V-RAW"
+		(at 173.99 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae14d1fd-830d-4433-a954-c144d0dc3513")
 	)
 	(label "PoE_READ"
 		(at 142.24 83.82 180)
@@ -18172,16 +18336,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TPSM24CANB-02HTG")
-		(at 199.39 45.72 180)
+		(at 201.93 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d0c82f2-2714-432d-a628-4f61f06186f2")
 		(property "Reference" "D4"
-			(at 205.74 44.1949 0)
+			(at 207.01 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18190,7 +18353,7 @@
 			)
 		)
 		(property "Value" "TPSM24CANB-02HTG"
-			(at 205.74 46.7349 0)
+			(at 207.01 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18199,7 +18362,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 199.39 31.75 0)
+			(at 201.93 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18208,7 +18371,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_TECH-PUBLIC-TPSM24CANB-02HTG_C970029.html"
-			(at 199.39 29.21 0)
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18217,7 +18380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 45.72 0)
+			(at 201.93 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18226,7 +18389,7 @@
 			)
 		)
 		(property "Manufacturer" "TECH PUBLIC(台舟)"
-			(at 199.39 26.67 0)
+			(at 201.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18235,7 +18398,7 @@
 			)
 		)
 		(property "MPN" "TPSM24CANB-02HTG"
-			(at 199.39 24.13 0)
+			(at 201.93 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18244,7 +18407,7 @@
 			)
 		)
 		(property "LCSC Part" "C970029"
-			(at 199.39 21.59 0)
+			(at 201.93 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,6 +19417,217 @@
 			(project "f1-pihat"
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS54,(2)")
+		(at 129.54 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1742e89e-95b6-4366-acc2-37e6405a1335")
+		(property "Reference" "D2"
+			(at 129.54 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 129.54 110.236 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 129.54 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281515_hongjiacheng-SS54_C7420369.pdf"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V Independent Type 550mV@5.0A 5A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420369"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "199894"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.041USD"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS54"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "0.55V@5.0A"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Average Rectified Current (Io)" "5A"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Single"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak forward surge current" "120A"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "0.05mA@40V"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a00e71c1-b7eb-4953-a97e-3b615b3bb09f")
+		)
+		(pin "2"
+			(uuid "01fbb13e-7277-4962-91d6-a153eb0840bb")
+		)
+		(instances
+			(project ""
+				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -20385,7 +20759,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 168.91 31.75 90)
+		(at 186.69 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20393,7 +20767,7 @@
 		(dnp no)
 		(uuid "28393d41-1606-473d-879f-d1bd1dc8696c")
 		(property "Reference" "#FLG01"
-			(at 167.005 31.75 0)
+			(at 188.595 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20402,7 +20776,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 164.592 31.75 0)
+			(at 191.008 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20411,7 +20785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 31.75 0)
+			(at 186.69 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20420,7 +20794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 31.75 0)
+			(at 186.69 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20429,7 +20803,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.91 31.75 0)
+			(at 186.69 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20441,7 +20815,7 @@
 			(uuid "edf21fab-735b-45a2-900c-327e464b1a94")
 		)
 		(instances
-			(project "f1-pihat"
+			(project "fsae-pihat"
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "#FLG01")
 					(unit 1)
@@ -20451,7 +20825,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 168.91 29.21 0)
+		(at 186.69 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20460,7 +20834,7 @@
 		(fields_autoplaced yes)
 		(uuid "28ee9c8e-0275-4cdc-8a7b-19d99a6393f6")
 		(property "Reference" "#PWR02"
-			(at 168.91 33.02 0)
+			(at 186.69 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20469,7 +20843,7 @@
 			)
 		)
 		(property "Value" "+24V-CAR"
-			(at 168.91 24.13 0)
+			(at 186.69 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20477,7 +20851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 29.21 0)
+			(at 186.69 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20486,7 +20860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 29.21 0)
+			(at 186.69 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20495,7 +20869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 168.91 29.21 0)
+			(at 186.69 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20507,7 +20881,7 @@
 			(uuid "74688ccf-0851-447d-82c0-0c6f343e6ba1")
 		)
 		(instances
-			(project ""
+			(project "fsae-pihat"
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "#PWR02")
 					(unit 1)
@@ -20517,7 +20891,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ40CA")
-		(at 168.91 36.83 90)
+		(at 173.99 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20526,7 +20900,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b42fe20-cc0a-45fa-a979-3abaad846c84")
 		(property "Reference" "D1"
-			(at 171.45 35.5599 90)
+			(at 176.53 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20535,7 +20909,7 @@
 			)
 		)
 		(property "Value" "SMAJ40CA"
-			(at 171.45 38.0999 90)
+			(at 176.53 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20544,7 +20918,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 173.99 36.83 0)
+			(at 179.07 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20553,7 +20927,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 168.91 36.83 0)
+			(at 173.99 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20562,7 +20936,7 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 40.0Vr, SMA(DO-214AC)"
-			(at 168.91 36.83 0)
+			(at 173.99 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20981,73 +21355,6 @@
 			(project "f1-pihat"
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS34")
-		(at 129.54 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38342d52-7b28-4bd4-bfbc-c57889d67c6d")
-		(property "Reference" "D2"
-			(at 129.54 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 129.54 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 129.54 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 129.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 129.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1cd970c8-2345-481b-a507-5c88d176cdb3")
-		)
-		(pin "1"
-			(uuid "d1cfa4c7-c39d-47e9-8686-9f31b6509a66")
-		)
-		(instances
-			(project ""
-				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -22786,7 +23093,7 @@
 		(at 163.83 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -22990,6 +23297,80 @@
 			(project "f1-pihat"
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 173.99 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ff642d3-891f-43f3-98c6-559335859502")
+		(property "Reference" "JP2"
+			(at 171.45 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 171.45 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 173.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 173.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4f36f82c-51f9-4fcf-a1c8-654d1edb9542")
+		)
+		(pin "1"
+			(uuid "605a2c21-6e70-4be2-8557-25e43608dffa")
+		)
+		(pin "2"
+			(uuid "f25e2e5c-3eda-4493-844b-992869822fbc")
+		)
+		(instances
+			(project ""
+				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -24921,7 +25302,7 @@
 		(at 275.59 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -24982,6 +25363,217 @@
 			(project ""
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS54,(2)")
+		(at 129.54 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "858ac044-b7f1-4ff0-bf9d-72faf31a6870")
+		(property "Reference" "D3"
+			(at 129.54 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 129.54 123.444 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 129.54 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281515_hongjiacheng-SS54_C7420369.pdf"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V Independent Type 550mV@5.0A 5A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420369"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "199894"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.041USD"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS54"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "0.55V@5.0A"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Average Rectified Current (Io)" "5A"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Single"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak forward surge current" "120A"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "0.05mA@40V"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25c523c2-8249-44a3-91dd-d8f593548f1c")
+		)
+		(pin "1"
+			(uuid "0d91e5aa-5d25-4190-8743-2c28be7b0313")
+		)
+		(instances
+			(project ""
+				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -26469,7 +27061,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 35.56 0)
+		(at 222.25 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26478,7 +27070,7 @@
 		(fields_autoplaced yes)
 		(uuid "93025ed3-34a5-4667-a9ce-f29756fcb7d5")
 		(property "Reference" "#PWR014"
-			(at 219.71 41.91 0)
+			(at 222.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26487,7 +27079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 40.64 0)
+			(at 222.25 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26495,7 +27087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 35.56 0)
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26504,7 +27096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 35.56 0)
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26513,7 +27105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 35.56 0)
+			(at 222.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27428,73 +28020,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS34")
-		(at 40.64 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a53331bd-b48d-45f6-a45e-90f6baea673e")
-		(property "Reference" "D11"
-			(at 40.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 40.64 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 40.64 18.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 40.64 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 40.64 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e25b66d4-c5c3-4fd1-8a8b-9d8de2c7ed7a")
-		)
-		(pin "1"
-			(uuid "8860be13-21d0-4629-9390-4bc110c28e93")
-		)
-		(instances
-			(project "f1-pihat"
-				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 207.01 113.03 0)
 		(unit 1)
@@ -27804,7 +28329,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:1812L200_30GR")
-		(at 180.34 31.75 0)
+		(at 182.88 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27813,7 +28338,7 @@
 		(fields_autoplaced yes)
 		(uuid "a84903c6-5825-40b4-8c93-4a77aab3e6ff")
 		(property "Reference" "F1"
-			(at 180.34 25.4 0)
+			(at 182.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27821,7 +28346,7 @@
 			)
 		)
 		(property "Value" "1812L200/30GR"
-			(at 180.34 27.94 0)
+			(at 182.88 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27829,7 +28354,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:F1812"
-			(at 180.34 39.37 0)
+			(at 182.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27838,7 +28363,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C18198342.pdf"
-			(at 180.34 41.91 0)
+			(at 182.88 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27847,7 +28372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 31.75 0)
+			(at 182.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27856,7 +28381,7 @@
 			)
 		)
 		(property "Manufacturer" "LUTE(陆特)"
-			(at 180.34 44.45 0)
+			(at 182.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27865,7 +28390,7 @@
 			)
 		)
 		(property "MPN" "1812L200/30GR"
-			(at 180.34 46.99 0)
+			(at 182.88 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27874,7 +28399,7 @@
 			)
 		)
 		(property "LCSC Part" "C18198342"
-			(at 180.34 49.53 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28712,16 +29237,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 198.12 33.02 0)
+		(at 200.66 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aba94d6c-f50e-49b5-baaf-740951794071")
 		(property "Reference" "J1"
-			(at 199.39 29.21 0)
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28729,7 +29254,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Odd_Even"
-			(at 199.39 29.21 0)
+			(at 201.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28738,7 +29263,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical"
-			(at 198.12 33.02 0)
+			(at 200.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28747,7 +29272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 33.02 0)
+			(at 200.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28756,7 +29281,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 33.02 0)
+			(at 200.66 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30499,75 +31024,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS34")
-		(at 40.64 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbca466c-8fc0-4185-b78d-91728762b91e")
-		(property "Reference" "D12"
-			(at 40.64 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 40.64 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 40.64 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 40.64 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 40.64 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5501c991-533d-4cd6-87b8-71a83ce77a50")
-		)
-		(pin "1"
-			(uuid "652e0b17-e474-424f-adb9-3b13e2442107")
-		)
-		(instances
-			(project "f1-pihat"
-				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 199.39 52.07 0)
+		(at 201.93 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30576,7 +31034,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc760392-26af-40d2-8a75-d38f9947bb10")
 		(property "Reference" "#PWR09"
-			(at 199.39 58.42 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30585,7 +31043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 57.15 0)
+			(at 201.93 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30593,7 +31051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 52.07 0)
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30602,7 +31060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 52.07 0)
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30611,7 +31069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 52.07 0)
+			(at 201.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31914,6 +32372,217 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS54,(2)")
+		(at 40.64 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dedcf7b6-891b-4064-903f-cf37970b16a8")
+		(property "Reference" "D11"
+			(at 40.64 17.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 40.64 20.066 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 40.64 24.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281515_hongjiacheng-SS54_C7420369.pdf"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V Independent Type 550mV@5.0A 5A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420369"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "199894"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.041USD"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS54"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "0.55V@5.0A"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Average Rectified Current (Io)" "5A"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Single"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak forward surge current" "120A"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "0.05mA@40V"
+			(at 40.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "212e8d33-0973-4343-b5ee-da15ead9e2ee")
+		)
+		(pin "1"
+			(uuid "193606d8-7aa0-4673-b5ee-794c0b56259e")
+		)
+		(instances
+			(project ""
+				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 113.03 0)
 		(unit 1)
@@ -32143,73 +32812,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS34")
-		(at 129.54 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e48377c1-ea8f-44b9-86b8-80c626120c7d")
-		(property "Reference" "D3"
-			(at 129.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 129.54 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 129.54 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 129.54 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 129.54 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc667958-9aca-4076-8842-745907908c65")
-		)
-		(pin "1"
-			(uuid "6772edf9-29de-47c6-acd4-8e9efe53f303")
-		)
-		(instances
-			(project "f1-pihat"
-				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 227.33 76.2 0)
 		(unit 1)
@@ -32270,6 +32872,217 @@
 			(project ""
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,SS54,(2)")
+		(at 40.64 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5ed1009-eff1-4ec7-b8ae-44b5f4d8ee24")
+		(property "Reference" "D12"
+			(at 40.64 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54"
+			(at 40.64 34.036 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMA"
+			(at 40.64 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308281515_hongjiacheng-SS54_C7420369.pdf"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V Independent Type 550mV@5.0A 5A SMA(DO-214AC) Schottky Diodes ROHS"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420369"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "199894"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.041USD"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SS54"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "0.55V@5.0A"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Average Rectified Current (Io)" "5A"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Single"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Peak forward surge current" "120A"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "0.05mA@40V"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24397368-9977-455d-bdc6-c2d06883f913")
+		)
+		(pin "1"
+			(uuid "998c7ae7-1f19-4bcb-84c8-4fd87ce1c3e7")
+		)
+		(instances
+			(project "fsae-pihat"
+				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -33124,7 +33937,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 40.64 0)
+		(at 173.99 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33133,7 +33946,7 @@
 		(fields_autoplaced yes)
 		(uuid "fac81da6-77cd-4e4f-9cfd-22fc57ad9541")
 		(property "Reference" "#PWR03"
-			(at 168.91 46.99 0)
+			(at 173.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33142,7 +33955,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 45.72 0)
+			(at 173.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33150,7 +33963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 40.64 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33159,7 +33972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 40.64 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33168,7 +33981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 40.64 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
