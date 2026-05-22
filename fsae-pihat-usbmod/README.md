@@ -1,8 +1,8 @@
-# FSAE Pi HAT — USB boost / PD module
+# FSAE Pi HAT USB Boost / PD Module
 
 ## What this project is
 
-This PCB is the external **20 V USB-C PD → 24 V boost** module used with the [main Pi HAT](../README.md). It pairs a **PDC004 V2** USB-C PD trigger (fixed 20 V) with an **MT3608** boost module to generate 24 V for PoE injection on the base station antenna and for convenient bench power during testing.
+This PCB is the external **20 V USB-C PD → 24 V boost** module used with the [main Pi HAT](../README.md). It pairs a **PDC004 V2** USB-C PD trigger (fixed 20 V) with an **MT3608** boost module to generate 24 V for PoE injection on the base station antenna and for convenient bench power during testing. This is a companion PCB to the main Pi HAT.
 
 ## Why I made it
 

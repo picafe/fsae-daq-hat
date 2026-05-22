@@ -111,7 +111,7 @@ The MT3608 boost and PDC004 USB-C PD trigger are on a separate PCB. Schematics, 
 | FH1, FH2 | 2 | Blade fuse holder 30 A 500 V PCB | [36-3568-ND](https://www.digikey.ca/en/products/detail/keystone-electronics/3568/2137306) | 3568 |
 | BT1 | 1 | CR1225 coin-cell holder, 12 mm SMD | [BAT-HLD-012-SMTCT-ND](https://www.digikey.ca/en/products/detail/te-connectivity-linx/BAT-HLD-012-SMT-TR/5361776) | BAT-HLD-012-SMT-TR |
 | — | 1 | CR1225 3 V lithium cell (fits BT1) | *(Amazon, etc.)* | CR1225 |
-| JP1, JP2 | 2 | 1×3 2.54 mm vertical pin header (solder to `JP1` / `JP2` footprints) | *(any 1×3 0.1″ header)* | — |
+| JP1, JP2 | 2 | 1×3 2.54 mm vertical pin header (solder to `JP1` / `JP2` footprints) | *(any 1×3 0.1″ 3A rated header)* | — |
 | JP1 | 1 | CAN 120 Ω termination shunt | [S9341-ND](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/NPC02SXON-RC/2618266) | NPC02SXON-RC |
 | JP2 | 1 | 24 V car-rail enable shunt | [S9341-ND](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/NPC02SXON-RC/2618266) | NPC02SXON-RC |
 
