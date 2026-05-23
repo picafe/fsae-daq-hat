@@ -10,7 +10,6 @@ This board converts 20 V USB-C PD → 24 V for PoE injection and bench power. It
 | --- | ---: | --- | --- |
 | J2 | 1 | PDC004 V2 USB-C PD trigger | Fixed **20 V** output; AliExpress module (HT50 regulator rev) |
 | U1 | 1 | MT3608 boost module | Generic AliExpress / module; ~2 A capable |
-| J1 | 1 | 1×3 2.54 mm vertical **socket** strip | To main HAT harness |
 | C1 | 1 | 2.2 µF 50 V X7R **1210** ([CL32B225KBJNNNE](https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL32B225KBJNNNE/3888542)) | Hand-solder on MT3608 **output**; not placed on PCB |
 
 ### Board layout
