@@ -125,3 +125,11 @@ High vs low current rated jumpers.
 Lastly, I spent some time polishing some routing, adding prod files and confirming they upload to JLCPCB, and creating a README.
 
 Total time spent: 4 hours
+
+# 22-05-2026 — Documentaton and Github
+
+I spent a while adding BOM, formatting the README, adding the production files to Github, and adding assembly instructions. I made it such that it is extremely easy to manufacture and assemble for anyone following, with BOMs for both JLCPCB and DigiKey, and easy to find production files for JLCPCB.
+
+![alt text](./images/allfiles.png)
+
+Total time spent: 1.5 hours

@@ -61,59 +61,64 @@ The MT3608 boost and PDC004 USB-C PD trigger are on a separate PCB. Schematics, 
 
 ### JLCPCB SMT assembly
 
-| Refs | Qty | Description |
-| --- | ---: | --- |
-| C1, C2 | 2 | 1206 4.7 µF · [C29823](https://www.lcsc.com/product-detail/C29823.html) |
-| C8, C10 | 2 | 0603 100 nF · [C14663](https://www.lcsc.com/product-detail/C14663.html) |
-| C11 | 1 | 0402 1 µF · [C52923](https://www.lcsc.com/product-detail/C52923.html) |
-| C3 | 1 | 0805 10 nF · [C1710](https://www.lcsc.com/product-detail/C1710.html) |
-| C4 | 1 | 0402 22 pF · [C1555](https://www.lcsc.com/product-detail/C1555.html) |
-| C5 | 1 | 0402 100 nF · [C307331](https://www.lcsc.com/product-detail/C307331.html) |
-| C6 | 1 | D-case 330 µF 6.3 V tantalum (6TPE330MAP) · [C79112](https://www.lcsc.com/product-detail/C79112.html) |
-| C7, C9 | 2 | 0402 30 pF · [C1570](https://www.lcsc.com/product-detail/C1570.html) |
-| D1 | 1 | SMA 40 V TVS bidirectional (SMAJ40CA) · [C19077552](https://www.lcsc.com/product-detail/C19077552.html) |
-| D10 | 1 | 0805 yellow LED · [C2296](https://www.lcsc.com/product-detail/C2296.html) |
-| D11, D12, D2, D3 | 4 | SMA Schottky SS54 · [C7420369](https://www.lcsc.com/product-detail/C7420369.html) |
-| D4 | 1 | SOT-23 CAN TVS (TPSM24CANB-02HTG) · [C970029](https://www.lcsc.com/product-detail/C970029.html) |
-| D5 | 1 | SMC Schottky SS54C · [C18199188](https://www.lcsc.com/product-detail/C18199188.html) |
-| D6, D7 | 2 | SOD-323 Schottky RB751V-40 · [C7502691](https://www.lcsc.com/product-detail/C7502691.html) |
-| D8 | 1 | 0805 green LED · [C2297](https://www.lcsc.com/product-detail/C2297.html) |
-| D9 | 1 | 0805 red LED · [C84256](https://www.lcsc.com/product-detail/C84256.html) |
-| F1 | 1 | 1812 PTC polyfuse 1812L200/30GR · [C18198342](https://www.lcsc.com/product-detail/C18198342.html) |
-| L1 | 1 | 12.5×12.5 mm 15 µH inductor SRR1260-150M · [C2041333](https://www.lcsc.com/product-detail/C2041333.html) |
-| R1, R2, R14, R16, R19, R20 | 6 | 0402 470 Ω · [C25117](https://www.lcsc.com/product-detail/C25117.html) |
-| R3, R9, R10, R17 | 4 | 0402 10 kΩ · [C25744](https://www.lcsc.com/product-detail/C25744.html) |
-| R11 | 1 | 0402 1 kΩ · [C11702](https://www.lcsc.com/product-detail/C11702.html) |
-| R7, R8, R12 | 3 | 0402 4.7 kΩ · [C25900](https://www.lcsc.com/product-detail/C25900.html) |
-| R13 | 1 | 0402 680 Ω · [C25130](https://www.lcsc.com/product-detail/C25130.html) |
-| R15 | 1 | 0603 120 Ω (CAN termination) · [C22787](https://www.lcsc.com/product-detail/C22787.html) |
-| R18 | 1 | 0603 1 kΩ · [C21190](https://www.lcsc.com/product-detail/C21190.html) |
-| R4 | 1 | 0603 3 kΩ · [C4211](https://www.lcsc.com/product-detail/C4211.html) |
-| R5 | 1 | 0603 150 Ω · [C22808](https://www.lcsc.com/product-detail/C22808.html) |
-| R6 | 1 | 0603×4 1 kΩ resistor network · [C20197](https://www.lcsc.com/product-detail/C20197.html) |
-| S1 | 1 | Tactile switch 160 gf · [C720477](https://www.lcsc.com/product-detail/C720477.html) |
-| U1 | 1 | TPS5430DDAR buck (ESOP-8) · [C9864](https://www.lcsc.com/product-detail/C9864.html) |
-| U2 | 1 | PCF8563T RTC (SOIC-8) · [C7440](https://www.lcsc.com/product-detail/C7440.html) |
-| U3 | 1 | MCP2515-I/ST CAN controller (TSSOP-20) · [C185941](https://www.lcsc.com/product-detail/C185941.html) |
-| U4 | 1 | SN65HVD230DR CAN transceiver (SOP-8) · [C46596299](https://www.lcsc.com/product-detail/C46596299.html) |
-| U5 | 1 | TPS1H200AQDGNRQ1 PoE high-side switch · [C2653785](https://www.lcsc.com/product-detail/C2653785.html) |
-| X1 | 1 | 32.768 kHz ceramic resonator · [C32346](https://www.lcsc.com/product-detail/C32346.html) |
-| X2 | 1 | 12 MHz crystal 3225 · [C9002](https://www.lcsc.com/product-detail/C9002.html) |
+
+| Refs | Qty | Description | LCSC | Unit (USD) | Min | Ext. @ min (USD) |
+| --- | ---: | --- | --- | ---: | ---: | ---: |
+| C1, C2 | 2 | 4.7 µF ±10% 50 V X7R ceramic, 1206 | [C29823](https://www.lcsc.com/product-detail/C29823.html) | $0.0426 | 10 | $0.43 |
+| C8, C10 | 2 | 100 nF ±10% 50 V X7R ceramic, 0603 | [C14663](https://www.lcsc.com/product-detail/C14663.html) | $0.0031 | 100 | $0.31 |
+| C11 | 1 | 1 µF ±10% 25 V X5R ceramic, 0402 | [C52923](https://www.lcsc.com/product-detail/C52923.html) | $0.0040 | 100 | $0.40 |
+| C3 | 1 | 10 nF ±10% 50 V X7R ceramic, 0805 | [C1710](https://www.lcsc.com/product-detail/C1710.html) | $0.0072 | 50 | $0.36 |
+| C4 | 1 | 22 pF ±5% 50 V C0G ceramic, 0402 | [C1555](https://www.lcsc.com/product-detail/C1555.html) | $0.0014 | 100 | $0.14 |
+| C5 | 1 | 100 nF ±10% 50 V X7R ceramic, 0402 | [C307331](https://www.lcsc.com/product-detail/C307331.html) | $0.0047 | 100 | $0.47 |
+| C6 | 1 | 330 µF ±20% 6.3 V tantalum, 7.3×4.3 mm SMD (6TPE330MAP) | [C79112](https://www.lcsc.com/product-detail/C79112.html) | $0.6851 | 1 | $0.69 |
+| C7, C9 | 2 | 30 pF ±5% 50 V C0G ceramic, 0402 | [C1570](https://www.lcsc.com/product-detail/C1570.html) | $0.0013 | 100 | $0.13 |
+| D1 | 1 | 64.5 V clamp TVS, 6.2 A Ipp, DO-214AC/SMA (SMAJ40CA) | [C19077552](https://www.lcsc.com/product-detail/C19077552.html) | $0.0335 | 20 | $0.67 |
+| D10 | 1 | Yellow 596 nm LED, 1.8–2.4 V, 0805 | [C2296](https://www.lcsc.com/product-detail/C2296.html) | $0.0122 | 50 | $0.61 |
+| D11, D12, D2, D3 | 4 | 40 V 5 A Schottky, SMA (SS54) | [C7420369](https://www.lcsc.com/product-detail/C7420369.html) | $0.0448 | 10 | $0.45 |
+| D4 | 1 | 50 V CAN TVS clamp, 5.5 A Ipp, SOT-23 (TPSM24CANB-02HTG) | [C970029](https://www.lcsc.com/product-detail/C970029.html) | $0.0495 | 10 | $0.50 |
+| D5 | 1 | 40 V 5 A Schottky, SMC (SS54C) | [C18199188](https://www.lcsc.com/product-detail/C18199188.html) | $0.0737 | 10 | $0.74 |
+| D6, D7 | 2 | 40 V 30 mA Schottky, SOD-323 (RB751V-40) | [C7502691](https://www.lcsc.com/product-detail/C7502691.html) | $0.0149 | 50 | $0.75 |
+| D8 | 1 | Emerald green 525 nm LED, 2.6–3.1 V, 0805 | [C2297](https://www.lcsc.com/product-detail/C2297.html) | $0.0163 | 50 | $0.82 |
+| D9 | 1 | Red 630 nm LED, 1.6–2.6 V, 0805 | [C84256](https://www.lcsc.com/product-detail/C84256.html) | $0.0133 | 50 | $0.67 |
+| F1 | 1 | Polymeric PTC resettable fuse, 30 V 2 A, 1812 (1812L200/30GR) | [C18198342](https://www.lcsc.com/product-detail/C18198342.html) | $0.0812 | 5 | $0.41 |
+| L1 | 1 | 15 µH ±20% shielded inductor, 5 A, 12.5×12.5 mm (SRR1260-150M) | [C2041333](https://www.lcsc.com/product-detail/C2041333.html) | $1.3721 | 1 | $1.37 |
+| R1, R2, R14, R16, R19, R20 | 6 | 470 Ω ±1% thick-film, 0402 | [C25117](https://www.lcsc.com/product-detail/C25117.html) | $0.0008 | 100 | $0.08 |
+| R3, R9, R10, R17 | 4 | 10 kΩ ±1% thick-film, 0402 | [C25744](https://www.lcsc.com/product-detail/C25744.html) | $0.0013 | 100 | $0.13 |
+| R11 | 1 | 1 kΩ ±1% thick-film, 0402 | [C11702](https://www.lcsc.com/product-detail/C11702.html) | $0.0011 | 100 | $0.11 |
+| R7, R8, R12 | 3 | 4.7 kΩ ±1% thick-film, 0402 | [C25900](https://www.lcsc.com/product-detail/C25900.html) | $0.0010 | 100 | $0.10 |
+| R13 | 1 | 680 Ω ±1% thick-film, 0402 | [C25130](https://www.lcsc.com/product-detail/C25130.html) | $0.0011 | 100 | $0.11 |
+| R15 | 1 | 120 Ω ±1% thick-film, 0603 (CAN termination) | [C22787](https://www.lcsc.com/product-detail/C22787.html) | $0.0014 | 100 | $0.14 |
+| R18 | 1 | 1 kΩ ±1% thick-film, 0603 | [C21190](https://www.lcsc.com/product-detail/C21190.html) | $0.0016 | 100 | $0.16 |
+| R4 | 1 | 3 kΩ ±1% thick-film, 0603 | [C4211](https://www.lcsc.com/product-detail/C4211.html) | $0.0014 | 100 | $0.14 |
+| R5 | 1 | 150 Ω ±1% thick-film, 0603 | [C22808](https://www.lcsc.com/product-detail/C22808.html) | $0.0018 | 100 | $0.18 |
+| R6 | 1 | 1 kΩ ±5% resistor network, 0603×4 | [C20197](https://www.lcsc.com/product-detail/C20197.html) | $0.0059 | 50 | $0.30 |
+| S1 | 1 | Tactile switch SPST, 160 gf, 4×3 mm SMD (TS-1088) | [C720477](https://www.lcsc.com/product-detail/C720477.html) | $0.0538 | 10 | $0.54 |
+| U1 | 1 | TPS5430 buck regulator, 3 A, 5.5–36 V in, SOIC-8-EP | [C9864](https://www.lcsc.com/product-detail/C9864.html) | $0.7486 | 1 | $0.75 |
+| U2 | 1 | PCF8563T I²C real-time clock, SO-8 | [C7440](https://www.lcsc.com/product-detail/C7440.html) | $0.5834 | 1 | $0.58 |
+| U3 | 1 | MCP2515 1 Mbps CAN controller, TSSOP-20 | [C185941](https://www.lcsc.com/product-detail/C185941.html) | $1.2094 | 1 | $1.21 |
+| U4 | 1 | SN65HVD230 3.3 V CAN transceiver, 5 Mbps, SOP-8 | [C46596299](https://www.lcsc.com/product-detail/C46596299.html) | $0.4853 | 1 | $0.49 |
+| U5 | 1 | TPS1H200A 2.5 A high-side switch (PoE injector), EMSOP-8-EP | [C2653785](https://www.lcsc.com/product-detail/C2653785.html) | $0.7476 | 1 | $0.75 |
+| X1 | 1 | 32.768 kHz crystal ±20 ppm, 12.5 pF, SMD3215-2P | [C32346](https://www.lcsc.com/product-detail/C32346.html) | $0.1804 | 5 | $0.90 |
+| X2 | 1 | 12 MHz crystal ±10 ppm, 20 pF, SMD3225-4P | [C9002](https://www.lcsc.com/product-detail/C9002.html) | $0.0744 | 10 | $0.74 |
+| | | **LCSC subtotal @ MOQ** | | | | **$17.33** |
 
 
 ### DigiKey (hand assembly)
 
-| Refs | Qty | Description | DigiKey | Mfr P/N |
-| --- | ---: | --- | --- | --- |
-| J2 | 1 | 2×20 extended female GPIO header | [1568-16763-ND](https://www.digikey.ca/en/products/detail/sparkfun-electronics/16763/12686348) | 16763 |
-| J4, J5 | 2 | 4-pos 3.5 mm top-entry terminal block | [A123850-ND](https://www.digikey.ca/en/products/detail/te-connectivity-amp-connectors/1-2834011-4/5872966) | 1-2834011-4 |
-| ETH1, ETH2 | 2 | RJ45 magjack 10/100 + PoE (Taoglas) | [931-TMJUTHQ0021192425-ND](https://www.digikey.ca/en/products/detail/taoglas-limited/TMJUTHQ0021192425/21777733) | TMJUTHQ0021192425 |
-| FH1, FH2 | 2 | Blade fuse holder 30 A 500 V PCB | [36-3568-ND](https://www.digikey.ca/en/products/detail/keystone-electronics/3568/2137306) | 3568 |
-| BT1 | 1 | CR1225 coin-cell holder, 12 mm SMD | [BAT-HLD-012-SMTCT-ND](https://www.digikey.ca/en/products/detail/te-connectivity-linx/BAT-HLD-012-SMT-TR/5361776) | BAT-HLD-012-SMT-TR |
-| — | 1 | CR1225 3 V lithium cell (fits BT1) | *(Amazon, etc.)* | CR1225 |
-| JP1, JP2 | 2 | 1×3 2.54 mm vertical pin header (solder to `JP1` / `JP2` footprints) | *(any 1×3 0.1″ 3A rated header)* | — |
-| JP1 | 1 | CAN 120 Ω termination shunt | [S9341-ND](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/NPC02SXON-RC/2618266) | NPC02SXON-RC |
-| JP2 | 1 | 24 V car-rail enable shunt | [S9341-ND](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/NPC02SXON-RC/2618266) | NPC02SXON-RC |
+Prices are **DigiKey.ca, CAD**, qty-1 unit breaks (your cart export). **Ext.** = unit × per-board qty.
+
+| Refs | Qty | Description | DigiKey | Unit (CAD) | Ext. (CAD) |
+| --- | ---: | --- | --- | ---: | ---: |
+| J2 | 1 | 2×20 extended female GPIO header | [1568-16763-ND](https://www.digikey.ca/en/products/detail/sparkfun-electronics/16763/12686348) | $4.70 | $4.70 |
+| J4, J5 | 2 | 4-pos 3.5 mm top-entry terminal block | [A123850-ND](https://www.digikey.ca/en/products/detail/te-connectivity-amp-connectors/1-2834011-4/5872966) | $1.57 | $3.14 |
+| ETH1, ETH2 | 2 | RJ45 magjack 10/100 + PoE (Taoglas) | [931-TMJUTHQ0021192425-ND](https://www.digikey.ca/en/products/detail/taoglas-limited/TMJUTHQ0021192425/21777733) | $9.04 | $18.08 |
+| FH1, FH2 | 2 | Blade fuse holder 30 A 500 V PCB | [36-3568-ND](https://www.digikey.ca/en/products/detail/keystone-electronics/3568/2137306) | $1.69 | $3.38 |
+| BT1 | 1 | CR1225 coin-cell holder, 12 mm SMD | [BAT-HLD-012-SMTCT-ND](https://www.digikey.ca/en/products/detail/te-connectivity-linx/BAT-HLD-012-SMT-TR/5361776) | $0.75 | $0.75 |
+| — | 1 | CR1225 3 V lithium cell (fits BT1) | *(Amazon, etc.)* | — | — |
+| JP1, JP2 | 2 | 1×3 2.54 mm vertical pin header (solder to `JP1` / `JP2` footprints) | *(any 1×3 0.1″ 3A rated header)* | — | — |
+| JP1 | 1 | CAN 120 Ω termination shunt | [S9341-ND](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/NPC02SXON-RC/2618266) | $0.075 | $0.08 |
+| JP2 | 1 | 24 V car-rail enable shunt | [S9341-ND](https://www.digikey.ca/en/products/detail/sullins-connector-solutions/NPC02SXON-RC/2618266) | $0.075 | $0.08 |
+| | | **DigiKey subtotal (per board)** | | | **$30.20** |
 
 **Not populated (DNP):**
 
