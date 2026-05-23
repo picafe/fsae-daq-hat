@@ -61,7 +61,6 @@ The MT3608 boost and PDC004 USB-C PD trigger are on a separate PCB. Schematics, 
 
 ### JLCPCB SMT assembly
 
-
 | Refs | Qty | Description | LCSC | Unit (USD) | Min | Ext. @ min (USD) |
 | --- | ---: | --- | --- | ---: | ---: | ---: |
 | C1, C2 | 2 | 4.7 µF ±10% 50 V X7R ceramic, 1206 | [C29823](https://www.lcsc.com/product-detail/C29823.html) | $0.0426 | 10 | $0.43 |
@@ -104,8 +103,6 @@ The MT3608 boost and PDC004 USB-C PD trigger are on a separate PCB. Schematics, 
 
 
 ### DigiKey (hand assembly)
-
-Prices are **DigiKey.ca, CAD**, qty-1 unit breaks (your cart export). **Ext.** = unit × per-board qty.
 
 | Refs | Qty | Description | DigiKey | Unit (CAD) | Ext. (CAD) |
 | --- | ---: | --- | --- | ---: | ---: |
