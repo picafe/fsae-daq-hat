@@ -63,43 +63,43 @@ The MT3608 boost and PDC004 USB-C PD trigger are on a separate PCB. Schematics, 
 
 | Refs | Qty | Description | LCSC | Unit (USD) | Min | Ext. @ min (USD) |
 | --- | ---: | --- | --- | ---: | ---: | ---: |
-| C1, C2 | 2 | 4.7 µF ±10% 50 V X7R ceramic, 1206 | [C29823](https://www.lcsc.com/product-detail/C29823.html) | $0.0426 | 10 | $0.43 |
-| C8, C10 | 2 | 100 nF ±10% 50 V X7R ceramic, 0603 | [C14663](https://www.lcsc.com/product-detail/C14663.html) | $0.0031 | 100 | $0.31 |
-| C11 | 1 | 1 µF ±10% 25 V X5R ceramic, 0402 | [C52923](https://www.lcsc.com/product-detail/C52923.html) | $0.0040 | 100 | $0.40 |
-| C3 | 1 | 10 nF ±10% 50 V X7R ceramic, 0805 | [C1710](https://www.lcsc.com/product-detail/C1710.html) | $0.0072 | 50 | $0.36 |
-| C4 | 1 | 22 pF ±5% 50 V C0G ceramic, 0402 | [C1555](https://www.lcsc.com/product-detail/C1555.html) | $0.0014 | 100 | $0.14 |
-| C5 | 1 | 100 nF ±10% 50 V X7R ceramic, 0402 | [C307331](https://www.lcsc.com/product-detail/C307331.html) | $0.0047 | 100 | $0.47 |
+| C1, C2, C3 | 3 | 4.7 µF ±10% 50 V X7R ceramic, 1206 | [C29823](https://www.lcsc.com/product-detail/C29823.html) | $0.0426 | 10 | $0.43 |
+| C10, C9 | 2 | 30 pF ±5% 50 V C0G ceramic, 0402 | [C1570](https://www.lcsc.com/product-detail/C1570.html) | $0.0013 | 100 | $0.13 |
+| C11, C12 | 2 | 100 nF ±10% 50 V X7R ceramic, 0603 | [C14663](https://www.lcsc.com/product-detail/C14663.html) | $0.0031 | 100 | $0.31 |
+| C4 | 1 | 10 nF ±10% 50 V X7R ceramic, 0805 | [C1710](https://www.lcsc.com/product-detail/C1710.html) | $0.0072 | 50 | $0.36 |
+| C5 | 1 | 22 pF ±5% 50 V C0G ceramic, 0402 | [C1555](https://www.lcsc.com/product-detail/C1555.html) | $0.0014 | 100 | $0.14 |
 | C6 | 1 | 330 µF ±20% 6.3 V tantalum, 7.3×4.3 mm SMD (6TPE330MAP) | [C79112](https://www.lcsc.com/product-detail/C79112.html) | $0.6851 | 1 | $0.69 |
-| C7, C9 | 2 | 30 pF ±5% 50 V C0G ceramic, 0402 | [C1570](https://www.lcsc.com/product-detail/C1570.html) | $0.0013 | 100 | $0.13 |
-| D1 | 1 | 64.5 V clamp TVS, 6.2 A Ipp, DO-214AC/SMA (SMAJ40CA) | [C19077552](https://www.lcsc.com/product-detail/C19077552.html) | $0.0335 | 20 | $0.67 |
-| D10 | 1 | Yellow 596 nm LED, 1.8–2.4 V, 0805 | [C2296](https://www.lcsc.com/product-detail/C2296.html) | $0.0122 | 50 | $0.61 |
-| D11, D12, D2, D3 | 4 | 40 V 5 A Schottky, SMA (SS54) | [C7420369](https://www.lcsc.com/product-detail/C7420369.html) | $0.0448 | 10 | $0.45 |
-| D4 | 1 | 50 V CAN TVS clamp, 5.5 A Ipp, SOT-23 (TPSM24CANB-02HTG) | [C970029](https://www.lcsc.com/product-detail/C970029.html) | $0.0495 | 10 | $0.50 |
-| D5 | 1 | 40 V 5 A Schottky, SMC (SS54C) | [C18199188](https://www.lcsc.com/product-detail/C18199188.html) | $0.0737 | 10 | $0.74 |
-| D6, D7 | 2 | 40 V 30 mA Schottky, SOD-323 (RB751V-40) | [C7502691](https://www.lcsc.com/product-detail/C7502691.html) | $0.0149 | 50 | $0.75 |
-| D8 | 1 | Emerald green 525 nm LED, 2.6–3.1 V, 0805 | [C2297](https://www.lcsc.com/product-detail/C2297.html) | $0.0163 | 50 | $0.82 |
-| D9 | 1 | Red 630 nm LED, 1.6–2.6 V, 0805 | [C84256](https://www.lcsc.com/product-detail/C84256.html) | $0.0133 | 50 | $0.67 |
+| C7 | 1 | 100 nF ±10% 50 V X7R ceramic, 0402 | [C307331](https://www.lcsc.com/product-detail/C307331.html) | $0.0047 | 100 | $0.47 |
+| C8 | 1 | 1 µF ±10% 25 V X5R ceramic, 0402 | [C52923](https://www.lcsc.com/product-detail/C52923.html) | $0.0040 | 100 | $0.40 |
+| D1, D2, D4, D5 | 4 | 40 V 5 A Schottky, SMA (SS54) | [C7420369](https://www.lcsc.com/product-detail/C7420369.html) | $0.0448 | 10 | $0.45 |
+| D10 | 1 | Emerald green 525 nm LED, 2.6–3.1 V, 0805 | [C2297](https://www.lcsc.com/product-detail/C2297.html) | $0.0163 | 50 | $0.82 |
+| D11 | 1 | Red 630 nm LED, 1.6–2.6 V, 0805 | [C84256](https://www.lcsc.com/product-detail/C84256.html) | $0.0133 | 50 | $0.67 |
+| D12 | 1 | Yellow 596 nm LED, 1.8–2.4 V, 0805 | [C2296](https://www.lcsc.com/product-detail/C2296.html) | $0.0122 | 50 | $0.61 |
+| D3 | 1 | 40 V 5 A Schottky, SMC (SS54C) | [C18199188](https://www.lcsc.com/product-detail/C18199188.html) | $0.0737 | 10 | $0.74 |
+| D6 | 1 | 64.5 V clamp TVS, 6.2 A Ipp, DO-214AC/SMA (SMAJ40CA) | — | — | — | — |
+| D7, D9 | 2 | 40 V 30 mA Schottky, SOD-323 (RB751V-40) | [C7502691](https://www.lcsc.com/product-detail/C7502691.html) | $0.0149 | 50 | $0.75 |
+| D8 | 1 | 50 V CAN TVS clamp, 5.5 A Ipp, SOT-23 (TPSM24CANB-02HTG) | [C970029](https://www.lcsc.com/product-detail/C970029.html) | $0.0495 | 10 | $0.50 |
 | F1 | 1 | Polymeric PTC resettable fuse, 30 V 2 A, 1812 (1812L200/30GR) | [C18198342](https://www.lcsc.com/product-detail/C18198342.html) | $0.0812 | 5 | $0.41 |
 | L1 | 1 | 15 µH ±20% shielded inductor, 5 A, 12.5×12.5 mm (SRR1260-150M) | [C2041333](https://www.lcsc.com/product-detail/C2041333.html) | $1.3721 | 1 | $1.37 |
-| R1, R2, R14, R16, R19, R20 | 6 | 470 Ω ±1% thick-film, 0402 | [C25117](https://www.lcsc.com/product-detail/C25117.html) | $0.0008 | 100 | $0.08 |
-| R3, R9, R10, R17 | 4 | 10 kΩ ±1% thick-film, 0402 | [C25744](https://www.lcsc.com/product-detail/C25744.html) | $0.0013 | 100 | $0.13 |
-| R11 | 1 | 1 kΩ ±1% thick-film, 0402 | [C11702](https://www.lcsc.com/product-detail/C11702.html) | $0.0011 | 100 | $0.11 |
-| R7, R8, R12 | 3 | 4.7 kΩ ±1% thick-film, 0402 | [C25900](https://www.lcsc.com/product-detail/C25900.html) | $0.0010 | 100 | $0.10 |
-| R13 | 1 | 680 Ω ±1% thick-film, 0402 | [C25130](https://www.lcsc.com/product-detail/C25130.html) | $0.0011 | 100 | $0.11 |
-| R15 | 1 | 120 Ω ±1% thick-film, 0603 (CAN termination) | [C22787](https://www.lcsc.com/product-detail/C22787.html) | $0.0014 | 100 | $0.14 |
-| R18 | 1 | 1 kΩ ±1% thick-film, 0603 | [C21190](https://www.lcsc.com/product-detail/C21190.html) | $0.0016 | 100 | $0.16 |
-| R4 | 1 | 3 kΩ ±1% thick-film, 0603 | [C4211](https://www.lcsc.com/product-detail/C4211.html) | $0.0014 | 100 | $0.14 |
-| R5 | 1 | 150 Ω ±1% thick-film, 0603 | [C22808](https://www.lcsc.com/product-detail/C22808.html) | $0.0018 | 100 | $0.18 |
-| R6 | 1 | 1 kΩ ±5% resistor network, 0603×4 | [C20197](https://www.lcsc.com/product-detail/C20197.html) | $0.0059 | 50 | $0.30 |
+| R1 | 1 | 1 kΩ ±5% resistor network, 0603×4 | [C20197](https://www.lcsc.com/product-detail/C20197.html) | $0.0059 | 50 | $0.30 |
+| R10, R11, R12 | 3 | 4.7 kΩ ±1% thick-film, 0402 | [C25900](https://www.lcsc.com/product-detail/C25900.html) | $0.0010 | 100 | $0.10 |
+| R13, R14, R19, R4 | 4 | 10 kΩ ±1% thick-film, 0402 | [C25744](https://www.lcsc.com/product-detail/C25744.html) | $0.0013 | 100 | $0.13 |
+| R15 | 1 | 680 Ω ±1% thick-film, 0402 | [C25130](https://www.lcsc.com/product-detail/C25130.html) | $0.0011 | 100 | $0.11 |
+| R16, R18, R2, R3, R7, R8 | 6 | 470 Ω ±1% thick-film, 0402 | [C25117](https://www.lcsc.com/product-detail/C25117.html) | $0.0008 | 100 | $0.08 |
+| R17 | 1 | 120 Ω ±1% thick-film, 0603 (CAN termination) | [C22787](https://www.lcsc.com/product-detail/C22787.html) | $0.0014 | 100 | $0.14 |
+| R20 | 1 | 1 kΩ ±1% thick-film, 0603 | [C21190](https://www.lcsc.com/product-detail/C21190.html) | $0.0016 | 100 | $0.16 |
+| R5 | 1 | 3 kΩ ±1% thick-film, 0603 | [C4211](https://www.lcsc.com/product-detail/C4211.html) | $0.0014 | 100 | $0.14 |
+| R6 | 1 | 150 Ω ±1% thick-film, 0603 | [C22808](https://www.lcsc.com/product-detail/C22808.html) | $0.0018 | 100 | $0.18 |
+| R9 | 1 | 1 kΩ ±1% thick-film, 0402 | [C11702](https://www.lcsc.com/product-detail/C11702.html) | $0.0011 | 100 | $0.11 |
 | S1 | 1 | Tactile switch SPST, 160 gf, 4×3 mm SMD (TS-1088) | [C720477](https://www.lcsc.com/product-detail/C720477.html) | $0.0538 | 10 | $0.54 |
 | U1 | 1 | TPS5430 buck regulator, 3 A, 5.5–36 V in, SOIC-8-EP | [C9864](https://www.lcsc.com/product-detail/C9864.html) | $0.7486 | 1 | $0.75 |
-| U2 | 1 | PCF8563T I²C real-time clock, SO-8 | [C7440](https://www.lcsc.com/product-detail/C7440.html) | $0.5834 | 1 | $0.58 |
-| U3 | 1 | MCP2515 1 Mbps CAN controller, TSSOP-20 | [C185941](https://www.lcsc.com/product-detail/C185941.html) | $1.2094 | 1 | $1.21 |
+| U2 | 1 | TPS1H200A 2.5 A high-side switch (PoE injector), EMSOP-8-EP | [C2653785](https://www.lcsc.com/product-detail/C2653785.html) | $0.7476 | 1 | $0.75 |
+| U3 | 1 | PCF8563T I²C real-time clock, SO-8 | [C7440](https://www.lcsc.com/product-detail/C7440.html) | $0.5834 | 1 | $0.58 |
 | U4 | 1 | SN65HVD230 3.3 V CAN transceiver, 5 Mbps, SOP-8 | [C46596299](https://www.lcsc.com/product-detail/C46596299.html) | $0.4853 | 1 | $0.49 |
-| U5 | 1 | TPS1H200A 2.5 A high-side switch (PoE injector), EMSOP-8-EP | [C2653785](https://www.lcsc.com/product-detail/C2653785.html) | $0.7476 | 1 | $0.75 |
+| U5 | 1 | MCP2515 1 Mbps CAN controller, TSSOP-20 | — | — | — | — |
 | X1 | 1 | 32.768 kHz crystal ±20 ppm, 12.5 pF, SMD3215-2P | [C32346](https://www.lcsc.com/product-detail/C32346.html) | $0.1804 | 5 | $0.90 |
 | X2 | 1 | 12 MHz crystal ±10 ppm, 20 pF, SMD3225-4P | [C9002](https://www.lcsc.com/product-detail/C9002.html) | $0.0744 | 10 | $0.74 |
-| | | **LCSC subtotal @ MOQ** | | | | **$17.33** |
+| | | **LCSC subtotal @ MOQ** | | | | **$15.45 + 2 unlinked line items** |
 
 
 ### DigiKey (hand assembly)
