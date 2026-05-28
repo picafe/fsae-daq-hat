@@ -14425,6 +14425,12 @@
 		(uuid "33eb43df-9025-4189-8396-2d480dd0a180")
 	)
 	(junction
+		(at 143.51 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34b441f2-db4c-4e54-8dda-25266d637f78")
+	)
+	(junction
 		(at 254 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15002,6 +15008,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 92.71) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf83d35-a50c-4c8c-aef9-56b33016312a")
+	)
+	(wire
+		(pts
 			(xy 133.35 184.15) (xy 133.35 186.69)
 		)
 		(stroke
@@ -15019,6 +15035,16 @@
 			(type default)
 		)
 		(uuid "1d67ff6a-af7b-4d6e-a73e-86675a38fc44")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7e64f9-6372-4328-8f46-6372644ea33e")
 	)
 	(wire
 		(pts
@@ -15952,6 +15978,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 83.82) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8087db47-b0b7-47bc-b701-8a964bbd5d53")
+	)
+	(wire
+		(pts
 			(xy 147.32 177.8) (xy 148.59 177.8)
 		)
 		(stroke
@@ -16272,6 +16308,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 83.82) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be11c9f-3964-4ca8-b81d-d62942d6cc12")
+	)
+	(wire
+		(pts
 			(xy 99.06 113.03) (xy 99.06 111.76)
 		)
 		(stroke
@@ -16382,6 +16428,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 91.44) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ba6ba9-bb01-4123-ae28-5b4da840a603")
+	)
+	(wire
+		(pts
 			(xy 148.59 86.36) (xy 153.67 86.36)
 		)
 		(stroke
@@ -16439,16 +16495,6 @@
 			(type default)
 		)
 		(uuid "aa422b56-0e20-45b8-90dc-d1416e91c84c")
-	)
-	(wire
-		(pts
-			(xy 142.24 83.82) (xy 146.05 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aab2e321-3f30-4ed5-8e7f-524f487f59ae")
 	)
 	(wire
 		(pts
@@ -23305,6 +23351,228 @@
 			(project ""
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
+		(at 143.51 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d1fb3b4-5f5b-4af4-91c9-eecc1956f185")
+		(property "Reference" "R21"
+			(at 137.922 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 143.51 87.63 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 141.732 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "21724133"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e9078b-c33e-4f27-864b-e5425750f89e")
+		)
+		(pin "2"
+			(uuid "4f2fb198-ae5e-4d71-b825-158571bac27e")
+		)
+		(instances
+			(project ""
+				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -34152,6 +34420,72 @@
 			(project ""
 				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 134.62 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fab49b4f-e5fb-4ca8-8e22-1eabba668480")
+		(property "Reference" "#PWR056"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "980fabb2-7938-4dea-bdb8-15225efa5188")
+		)
+		(instances
+			(project "fsae-pihat"
+				(path "/4a12af3f-2caf-46f4-9c97-0e610c956f18"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)

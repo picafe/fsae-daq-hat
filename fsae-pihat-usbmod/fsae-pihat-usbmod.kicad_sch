@@ -351,146 +351,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom:MT3608_module"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MT3608 Boost"
-				(at 0 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MT3608_module_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 12.7 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MT3608_module_1_1"
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "VOUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "VOUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "custom:PDC004"
+		(symbol "custom:HUSB238_module"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -502,8 +363,8 @@
 					)
 				)
 			)
-			(property "Value" "PDC004 V2 PD Trigger"
-				(at -15.494 5.842 0)
+			(property "Value" "HUSB238 Module"
+				(at -11.43 5.842 0)
 				(effects
 					(font
 						(size 1.8288 1.8288)
@@ -511,7 +372,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "PDC004-Footprint"
+			(property "Footprint" "HUSB238_module"
 				(at 0 0 0)
 				(effects
 					(font
@@ -520,7 +381,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.aliexpress.com/item/1005008369234535.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -529,7 +390,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fixed Voltage 20V PDC004 (NEW REV w/ HT50 regulator) USB-C PD Trigger from Aliexpress"
+			(property "Description" "Adjustable 20V Default Purple SMT HUSB238 USB-C PD Trigger from Aliexpress"
 				(at 0 0 0)
 				(effects
 					(font
@@ -678,7 +539,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*PDC004-Footprint*"
+			(property "ki_fp_filters" "*HUSB238_module*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -687,10 +548,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PDC004_1_0"
+			(symbol "HUSB238_module_1_0"
 				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.0254)
 						(type solid)
@@ -729,6 +590,145 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "custom:MT3608_module"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MT3608 Boost"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MT3608_module_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 12.7 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MT3608_module_1_1"
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "VOUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "VOUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1668,7 +1668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "custom:PDC004")
+		(lib_id "custom:HUSB238_module")
 		(at 109.22 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1676,7 +1676,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d22f635b-0ccb-41c6-b000-02127bb79dec")
+		(uuid "e1cb7728-8acd-4487-a933-8158f6c16726")
 		(property "Reference" "J2"
 			(at 109.22 85.09 90)
 			(effects
@@ -1685,7 +1685,7 @@
 				)
 			)
 		)
-		(property "Value" "PDC004 V2 PD Trigger"
+		(property "Value" "HUSB238 Module"
 			(at 109.22 88.9 90)
 			(effects
 				(font
@@ -1693,7 +1693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PDC004-Footprint"
+		(property "Footprint" "HUSB238_module"
 			(at 109.22 96.52 0)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005008369234535.html"
 			(at 109.22 96.52 0)
 			(effects
 				(font
@@ -1711,7 +1711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fixed Voltage 20V PDC004 (NEW REV w/ HT50 regulator) USB-C PD Trigger from Aliexpress"
+		(property "Description" "Adjustable 20V Default Purple SMT HUSB238 USB-C PD Trigger from Aliexpress"
 			(at 109.22 96.52 0)
 			(effects
 				(font
@@ -1860,11 +1860,11 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1d85c8bb-3cb3-487c-8cbb-3040854529b4")
-		)
 		(pin "2"
-			(uuid "26777c74-f46e-4521-808d-ada475883567")
+			(uuid "7145947a-58e6-47b8-84bc-baf22a6da564")
+		)
+		(pin "1"
+			(uuid "7d9fbe9f-daee-4990-93ee-6e0bc3a2dc3a")
 		)
 		(instances
 			(project ""

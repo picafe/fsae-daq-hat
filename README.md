@@ -83,7 +83,7 @@ The MT3608 boost and PDC004 USB-C PD trigger are on a separate PCB. Schematics, 
 | L1 | 1 | 15 µH ±20% shielded inductor, 5 A, 12.5×12.5 mm (SRR1260-150M) | [C2041333](https://www.lcsc.com/product-detail/C2041333.html) | $1.3721 | 1 | $1.37 |
 | R1 | 1 | 1 kΩ ±5% resistor network, 0603×4 | [C20197](https://www.lcsc.com/product-detail/C20197.html) | $0.0059 | 50 | $0.30 |
 | R10, R11, R12 | 3 | 4.7 kΩ ±1% thick-film, 0402 | [C25900](https://www.lcsc.com/product-detail/C25900.html) | $0.0010 | 100 | $0.10 |
-| R13, R14, R19, R4 | 4 | 10 kΩ ±1% thick-film, 0402 | [C25744](https://www.lcsc.com/product-detail/C25744.html) | $0.0013 | 100 | $0.13 |
+| R13, R14, R19, R21, R4 | 5 | 10 kΩ ±1% thick-film, 0402 | [C25744](https://www.lcsc.com/product-detail/C25744.html) | $0.0013 | 100 | $0.13 |
 | R15 | 1 | 680 Ω ±1% thick-film, 0402 | [C25130](https://www.lcsc.com/product-detail/C25130.html) | $0.0011 | 100 | $0.11 |
 | R16, R18, R2, R3, R7, R8 | 6 | 470 Ω ±1% thick-film, 0402 | [C25117](https://www.lcsc.com/product-detail/C25117.html) | $0.0008 | 100 | $0.08 |
 | R17 | 1 | 120 Ω ±1% thick-film, 0603 (CAN termination) | [C22787](https://www.lcsc.com/product-detail/C22787.html) | $0.0014 | 100 | $0.14 |
