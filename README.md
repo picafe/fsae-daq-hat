@@ -1,11 +1,11 @@
 # FSAE Pi HAT
 ## What this project is
 
-This project is a revision 2.5 of the Raspberry Pi DAQ (data acquisition) HAT for FSAE. It consolidates the features still needed from the failed rev 2 boards into a single HAT: a 24 V → 5 V buck converter to power the Pi, input protection on the car rail, CAN transceiver + controller, static PoE injection control, and RTC with coin cell for the Pi 4B.
+This project is a revision 2.5 of the Raspberry Pi DAQ (data acquisition) HAT for Western Formula Racing FSAE. It consolidates the features still needed from the failed rev 2 boards into a single HAT: a 24 V → 5 V buck converter to power the Pi, input protection on the car rail, CAN transceiver + controller, static PoE injection control, and RTC with coin cell for the Pi 4B.
 
 ## Why I made it
 
-A few months ago, I tested and diagnosed a cause of catastrophic failure of the rev 2 DAQ HAT using voltage injection and a thermal camera. Although rev 3 was planned, and I am still working on it, along with others, the current failed rev 2 PCBs are still being partially used for their features that still function. This aims to be a quick revision that consolidates some of the features, while being cheap to manufacture.
+A few months ago, I and another WFR team member tested and diagnosed a cause of catastrophic failure of the rev 2 DAQ HAT using voltage injection and a thermal camera. Although rev 3 was planned, and I am still working on it with help from others, the current failed rev 2 PCBs are still being partially used for their features that still function. This aims to be a quick revision that consolidates some of the features, while being cheap to manufacture. When revision 3 is finished, these boards can act as a backup.
 
 The buck converter is one of the essential parts of the hat. Existing modules cut too many corners to be reliable, especially at 3A peak current. Currently, the buck coverter on the Rev 2 board is blown up. 
 
