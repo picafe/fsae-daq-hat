@@ -136,4 +136,12 @@ Total time spent: 1.5 hours
 
 # 26-05-2026 — Small updates
 
+I adjusted the PCB design a bit after reading an updated version of the TPS5430 datasheet, which explicitly states that the input decoupling capacitors should be placed under 1mm to the VIN and GND pins, so moved them a bit closer and added in a 3rd capacitor. On WeBENCH, when simulating with a lower input voltage, it suggested adding more decoupling so I added another identical 4.7uF capacitor. 
 
+![alt text](./images/firefox_Dds8SJKs5j.png)
+
+I also found a new usb c pd trigger module on aliexpress that has a better design (more isolation between + and - output), is adjustable, has an indicator LED, and uses a branded HUSB238 chip. I ordered one and will be testing it out soon, but it looks a lot more reliable than the previous one, which uses an unknown chip and is not easily adjustable (even though it technically is, it's just not documented well). I also noticed a mistake on my design missing a pullup, which I added in. I also improved some of the routing and added some PCB art.
+
+![alt text](./images/kicad_RSzph56nCq.png)
+
+Total time spent: 1 hour
