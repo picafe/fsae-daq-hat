@@ -715,12 +715,12 @@
 	)
 	(footprint "custom:HUSB238_module_purple"
 		(layer "B.Cu")
-		(uuid "8ec294c0-7929-47be-991d-f52414036228")
+		(uuid "dcd2194b-d54b-4197-8f75-c62aa70b16d2")
 		(at 142.75 92.7 -90)
 		(property "Reference" "J2"
-			(at 0 11.927 90)
+			(at 0 12.2 90)
 			(layer "B.SilkS")
-			(uuid "5a05305b-ac9f-43d0-80dc-702185fd58c3")
+			(uuid "b61a93ff-3c70-4fbc-bcb1-f4e183176c62")
 			(effects
 				(font
 					(size 1 1)
@@ -732,7 +732,7 @@
 		(property "Value" "HUSB238 Module"
 			(at 0 -10.427 90)
 			(layer "B.Fab")
-			(uuid "f733c2f0-68e9-4913-a733-c35cd36d75c4")
+			(uuid "0a9d3d17-9017-4a0a-bb89-75c59cbca450")
 			(effects
 				(font
 					(size 1 1)
@@ -741,11 +741,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005008369234535.html"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "75d85c4b-7ea0-4c9f-baf4-457ef84149a0")
+			(uuid "1db287b3-2194-417c-941f-f0755471bd39")
 			(effects
 				(font
 					(size 1 1)
@@ -754,11 +754,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Fixed Voltage 20V PDC004 (NEW REV w/ HT50 regulator) USB-C PD Trigger from Aliexpress"
+		(property "Description" "Adjustable 20V Default Purple SMT HUSB238 USB-C PD Trigger from Aliexpress"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "43141a97-ce44-4745-8188-b6af01e91534")
+			(uuid "cf24b0cc-a86a-4d8f-819b-14426f338a51")
 			(effects
 				(font
 					(size 1 1)
@@ -772,7 +772,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ce743e88-77cd-49b1-8d55-5715f98a4b91")
+			(uuid "139d5014-e28d-4bcb-b162-f1c203a5b288")
 			(effects
 				(font
 					(size 1 1)
@@ -786,7 +786,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "77b2f99a-edad-463b-a2ab-af0073ea6301")
+			(uuid "97a7fd5f-22ce-4afc-b012-9831bb193382")
 			(effects
 				(font
 					(size 1 1)
@@ -800,7 +800,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2ff60e76-24d6-4497-943d-cbf4e06ce009")
+			(uuid "d26bd46c-b29e-41b0-abe3-cf34648c7b3e")
 			(effects
 				(font
 					(size 1 1)
@@ -814,7 +814,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c6fd6f32-b617-4135-a4ed-f5de9ee574c6")
+			(uuid "c5171533-7e52-4ede-b3b7-7f8d69873d7a")
 			(effects
 				(font
 					(size 1 1)
@@ -828,7 +828,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f9192595-bab8-43a6-8cc1-c80ee811b24c")
+			(uuid "b93f912f-6ede-4b14-aa47-51068a5dca88")
 			(effects
 				(font
 					(size 1 1)
@@ -842,7 +842,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5e544551-68e7-4cb8-a4b4-e8174001e8a5")
+			(uuid "587ced4c-b313-4a46-9b2b-48aba61422f0")
 			(effects
 				(font
 					(size 1 1)
@@ -856,7 +856,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "489fb3f4-59f2-4a72-92af-c0a098074964")
+			(uuid "aa4c9766-79c6-4fdc-9238-00f003d6f589")
 			(effects
 				(font
 					(size 1 1)
@@ -870,7 +870,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "70e23d64-edcc-4157-a49f-45b65b75139a")
+			(uuid "69f425f1-545f-4c13-81f7-3ac95ca84363")
 			(effects
 				(font
 					(size 1 1)
@@ -884,7 +884,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4493e4f3-2aa7-4fbc-9410-76a676fe8b1a")
+			(uuid "8c96192f-04ff-4821-bad1-15a5aafb49b0")
 			(effects
 				(font
 					(size 1 1)
@@ -898,7 +898,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8528543c-f04a-40c0-99bb-beb5d640c44b")
+			(uuid "39e3fbe3-7d74-4e18-a60e-90dc496f5de1")
 			(effects
 				(font
 					(size 1 1)
@@ -912,7 +912,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f774664f-f438-4986-bc99-d659ce8da9d9")
+			(uuid "9be91077-332b-447d-b206-227e6a2c1ef3")
 			(effects
 				(font
 					(size 1 1)
@@ -926,7 +926,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ab7ccc1f-f61b-4318-8fcd-e6cb6a0a7bfa")
+			(uuid "0b13e72d-b3e6-4642-80ed-92370544fb9e")
 			(effects
 				(font
 					(size 1 1)
@@ -940,7 +940,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bddeacb6-60f1-4ebf-b3c9-870c0cfbc8a6")
+			(uuid "5f6939c3-ce93-45d3-aaf8-eabd5462797e")
 			(effects
 				(font
 					(size 1 1)
@@ -954,7 +954,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "63157408-d37e-4f14-aed1-d804453b6ea0")
+			(uuid "55bb667f-caa2-485e-a645-78ffe933733a")
 			(effects
 				(font
 					(size 1 1)
@@ -975,7 +975,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "62a6d03b-28f0-4a52-aa54-7aa0698dadfd")
+			(uuid "97d84f3a-6d24-4ca7-be37-c367f4ca7400")
 		)
 		(fp_line
 			(start -6.7 -11.3)
@@ -985,7 +985,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "3bd092bc-e898-4ef7-afec-30ec07670253")
+			(uuid "cb22cfaf-f37b-4a4d-a1f6-d39b89ab2989")
 		)
 		(fp_line
 			(start -6.7 -11.3)
@@ -995,7 +995,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "2ca21312-0259-4bcc-96b0-d7e4ba89de79")
+			(uuid "8ff21122-ea19-4861-ba5c-ab2494eefead")
 		)
 		(fp_line
 			(start 6.7 -11.3)
@@ -1005,7 +1005,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "25345d43-6012-4487-a9a8-f4f686d88b4e")
+			(uuid "b3176a98-c177-413d-9b57-ddcaf54b7b37")
 		)
 		(fp_line
 			(start -6.5 11.1)
@@ -1015,7 +1015,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "068790e6-1324-45ba-88ba-1c05a73c2886")
+			(uuid "136efe9a-4ec1-43a6-a890-2d7a1cfaf18f")
 		)
 		(fp_line
 			(start -6.5 -11.1)
@@ -1025,7 +1025,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "58b6d480-6f94-4686-afbf-3ee0416c4095")
+			(uuid "e71f5b8a-ff35-4485-a77c-15150d47120b")
 		)
 		(fp_line
 			(start -6.5 -11.1)
@@ -1035,7 +1035,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "4ec40844-a7c2-4b66-bf18-192f40be90ee")
+			(uuid "85526500-e669-450d-8687-daef20d7df76")
 		)
 		(fp_line
 			(start 6.5 -11.1)
@@ -1045,13 +1045,13 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7004606f-92ca-4837-8b18-d3c6f8324e97")
+			(uuid "4104dd3e-535a-4d6f-b2be-1283bc3ddc2e")
 		)
 		(fp_text user "USB C"
-			(at -3.496 -8.13269 90)
+			(at -3.75 -2.15 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "95936f64-7562-4773-bae6-7f4e2721df76")
+			(uuid "d2e6f811-3e95-45e3-ba85-3a2ed759d481")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1070,7 +1070,7 @@
 			(pinfunction "OUT+")
 			(pintype "power_in")
 			(tenting none)
-			(uuid "2568b359-b40b-480a-ba26-6bfd5a609bfd")
+			(uuid "9396e505-30c1-463f-be1d-ba979f55dbf8")
 		)
 		(pad "1" thru_hole rect
 			(at -3.7 9.85 270)
@@ -1081,7 +1081,7 @@
 			(net 2 "+20V")
 			(pinfunction "OUT+")
 			(pintype "power_in")
-			(uuid "8c4b6654-cbaa-4d79-9912-c6fed5e74c7a")
+			(uuid "1cc7156a-6bb2-4dd2-aaaa-e2416b457f7d")
 		)
 		(pad "1" thru_hole circle
 			(at -2 9.85 270)
@@ -1093,7 +1093,7 @@
 			(pinfunction "OUT+")
 			(pintype "power_in")
 			(tenting none)
-			(uuid "dffe29ec-de6f-4db8-98f6-95702182a875")
+			(uuid "2c213614-439f-43b0-9c51-9e162bcb165f")
 		)
 		(pad "2" thru_hole circle
 			(at 2 9.85 270)
@@ -1105,7 +1105,7 @@
 			(pinfunction "OUT-")
 			(pintype "power_in")
 			(tenting none)
-			(uuid "1f5cf0b5-31b4-4dca-9c05-b924bbcdb060")
+			(uuid "45050874-3d94-4e80-9f95-ac81c0372405")
 		)
 		(pad "2" thru_hole rect
 			(at 3.7 9.85 270)
@@ -1116,7 +1116,7 @@
 			(net 1 "GND")
 			(pinfunction "OUT-")
 			(pintype "power_in")
-			(uuid "4b82a3ae-d421-4d6f-80c0-5072ed3f6adf")
+			(uuid "2a7906a1-35f0-4bfb-b03b-88d62dbece2c")
 		)
 		(pad "2" thru_hole circle
 			(at 5.4 9.85 270)
@@ -1128,7 +1128,7 @@
 			(pinfunction "OUT-")
 			(pintype "power_in")
 			(tenting none)
-			(uuid "8eda5a24-aa26-464f-a31f-f7839c722815")
+			(uuid "3ae6a9d0-69c1-43ca-9423-a33dc91b8f0c")
 		)
 		(embedded_fonts no)
 	)

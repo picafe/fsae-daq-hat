@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "J**"
-		(at 0 -11.927 0)
+		(at 0 -12.2 0)
 		(layer "F.SilkS")
 		(uuid "17223b0d-a8c9-4ef7-9bd3-b2dc291fc37f")
 		(effects
@@ -130,7 +130,7 @@
 		(uuid "fe7a6d37-9548-4283-8e7b-5fafb5c75d6c")
 	)
 	(fp_text user "USB C"
-		(at -3.496 8.13269 0)
+		(at -3.75 2.15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0631722e-d48e-4eb3-bbf0-da675b819513")
